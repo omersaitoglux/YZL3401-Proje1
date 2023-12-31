@@ -41,4 +41,8 @@ class ViewController: UIViewController {
     func ozan(){
         print("hello")
     }
+    
+    func melisa(){
+        print("hello")
+    }
 }
