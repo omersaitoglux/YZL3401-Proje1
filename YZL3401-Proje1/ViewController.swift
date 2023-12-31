@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     func emre(){
         print("hello")
     }
+    
+    func azim(){
+        print("hello")
 
 }
-
