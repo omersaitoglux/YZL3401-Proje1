@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     func hesapla(){
         print("Hesaplama Metodu eklendi")
     }
+    
+    func emre(){
+        print("hello")
+    }
 
 }
 
