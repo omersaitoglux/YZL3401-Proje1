@@ -30,12 +30,14 @@ class ViewController: UIViewController {
         print("hello")
     }
     
-    func barış(){
+    func baris(){
         print("hello")
     }
+    
     func cagri(){
         print("hello")
     }
+    
     func ozan(){
         print("hello")
     }
