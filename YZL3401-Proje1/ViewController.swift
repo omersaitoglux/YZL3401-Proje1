@@ -36,4 +36,7 @@ class ViewController: UIViewController {
     func cagri(){
         print("hello")
     }
+    func ozan(){
+        print("hello")
+    }
 }
