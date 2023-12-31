@@ -33,4 +33,7 @@ class ViewController: UIViewController {
     func barış(){
         print("hello")
     }
+    func cagri(){
+        print("hello")
+    }
 }
