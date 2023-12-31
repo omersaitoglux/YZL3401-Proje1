@@ -24,5 +24,9 @@ class ViewController: UIViewController {
     
     func azim(){
         print("hello")
-
+    }
+    
+    func kaan(){
+        print("hello")
+    }
 }
