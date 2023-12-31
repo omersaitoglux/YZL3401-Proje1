@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func hesapla(){
+        print("Hesaplama Metodu eklendi")
+    }
 
 }
 
