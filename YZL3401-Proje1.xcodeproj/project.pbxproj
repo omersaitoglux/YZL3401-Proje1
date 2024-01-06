@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D758F332B4944FB00397795 /* MelisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D758F322B4944FB00397795 /* MelisaViewController.swift */; };
 		CF7350CE2B4178DD004EB544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350CD2B4178DD004EB544 /* AppDelegate.swift */; };
 		CF7350D02B4178DD004EB544 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */; };
 		CF7350D22B4178DD004EB544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350D12B4178DD004EB544 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D758F322B4944FB00397795 /* MelisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelisaViewController.swift; sourceTree = "<group>"; };
 		CF7350CA2B4178DD004EB544 /* YZL3401-Proje1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YZL3401-Proje1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7350CD2B4178DD004EB544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D758F312B4944EA00397795 /* Melisa */ = {
+			isa = PBXGroup;
+			children = (
+				6D758F322B4944FB00397795 /* MelisaViewController.swift */,
+			);
+			path = Melisa;
+			sourceTree = "<group>";
+		};
 		CF7350C12B4178DD004EB544 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		CF7350CC2B4178DD004EB544 /* YZL3401-Proje1 */ = {
 			isa = PBXGroup;
 			children = (
+				6D758F312B4944EA00397795 /* Melisa */,
 				CF8449662B493DC200F9BA9B /* OmerX */,
 				CF7350CD2B4178DD004EB544 /* AppDelegate.swift */,
 				CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */,
@@ -153,6 +164,7 @@
 				CF7350CE2B4178DD004EB544 /* AppDelegate.swift in Sources */,
 				CF8449682B493DE400F9BA9B /* OmerXViewController.swift in Sources */,
 				CF7350D02B4178DD004EB544 /* SceneDelegate.swift in Sources */,
+				6D758F332B4944FB00397795 /* MelisaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
