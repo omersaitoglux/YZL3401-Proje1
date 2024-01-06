@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69D8F47F2B493642007B62EE /* OzanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D8F47E2B493642007B62EE /* OzanViewController.swift */; };
 		CF7350CE2B4178DD004EB544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350CD2B4178DD004EB544 /* AppDelegate.swift */; };
 		CF7350D02B4178DD004EB544 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */; };
 		CF7350D22B4178DD004EB544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350D12B4178DD004EB544 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69D8F47E2B493642007B62EE /* OzanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzanViewController.swift; sourceTree = "<group>"; };
 		CF7350CA2B4178DD004EB544 /* YZL3401-Proje1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YZL3401-Proje1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7350CD2B4178DD004EB544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69D8F47D2B4935F5007B62EE /* Ozan */ = {
+			isa = PBXGroup;
+			children = (
+				69D8F47E2B493642007B62EE /* OzanViewController.swift */,
+			);
+			path = Ozan;
+			sourceTree = "<group>";
+		};
 		CF7350C12B4178DD004EB544 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		CF7350CC2B4178DD004EB544 /* YZL3401-Proje1 */ = {
 			isa = PBXGroup;
 			children = (
+				69D8F47D2B4935F5007B62EE /* Ozan */,
 				CF7350CD2B4178DD004EB544 /* AppDelegate.swift */,
 				CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */,
 				CF7350D12B4178DD004EB544 /* ViewController.swift */,
@@ -140,6 +151,7 @@
 			files = (
 				CF7350D22B4178DD004EB544 /* ViewController.swift in Sources */,
 				CF7350CE2B4178DD004EB544 /* AppDelegate.swift in Sources */,
+				69D8F47F2B493642007B62EE /* OzanViewController.swift in Sources */,
 				CF7350D02B4178DD004EB544 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
