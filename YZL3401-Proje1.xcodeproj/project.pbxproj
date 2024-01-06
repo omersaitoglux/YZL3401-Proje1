@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05C1B1AA2B494A910097B951 /* AzimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C1B1A92B494A910097B951 /* AzimViewController.swift */; };
 		6985BEB12B4945E3005B8F99 /* OzanXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6985BEB02B4945E3005B8F99 /* OzanXViewController.swift */; };
+		6985BEB32B494E1F005B8F99 /* OzanX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6985BEB22B494E1F005B8F99 /* OzanX.storyboard */; };
 		6D758F332B4944FB00397795 /* MelisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D758F322B4944FB00397795 /* MelisaViewController.swift */; };
 		9DC8B7BB2B4949CF000F84C3 /* KaanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8B7BA2B4949CF000F84C3 /* KaanViewController.swift */; };
 		A39C8AC92B4946FD00A0E973 /* CagriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */; };
@@ -21,12 +22,14 @@
 		CF7350D72B4178DE004EB544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7350D62B4178DE004EB544 /* Assets.xcassets */; };
 		CF7350DA2B4178DE004EB544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7350D82B4178DE004EB544 /* LaunchScreen.storyboard */; };
 		CF8449682B493DE400F9BA9B /* OmerXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8449672B493DE400F9BA9B /* OmerXViewController.swift */; };
+		CF84496A2B494E2000F9BA9B /* OmerX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8449692B494E2000F9BA9B /* OmerX.storyboard */; };
 		DF8824552B4946A300D0CCB5 /* EmreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8824542B4946A300D0CCB5 /* EmreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05C1B1A92B494A910097B951 /* AzimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzimViewController.swift; sourceTree = "<group>"; };
 		6985BEB02B4945E3005B8F99 /* OzanXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzanXViewController.swift; sourceTree = "<group>"; };
+		6985BEB22B494E1F005B8F99 /* OzanX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OzanX.storyboard; sourceTree = "<group>"; };
 		6D758F322B4944FB00397795 /* MelisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelisaViewController.swift; sourceTree = "<group>"; };
 		9DC8B7BA2B4949CF000F84C3 /* KaanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaanViewController.swift; sourceTree = "<group>"; };
 		A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CagriViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +44,7 @@
 		CF7350D92B4178DE004EB544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF7350DB2B4178DE004EB544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF8449672B493DE400F9BA9B /* OmerXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerXViewController.swift; sourceTree = "<group>"; };
+		CF8449692B494E2000F9BA9B /* OmerX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OmerX.storyboard; sourceTree = "<group>"; };
 		DF8824542B4946A300D0CCB5 /* EmreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				6985BEB02B4945E3005B8F99 /* OzanXViewController.swift */,
+				6985BEB22B494E1F005B8F99 /* OzanX.storyboard */,
 			);
 			path = OzanX;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				CF8449672B493DE400F9BA9B /* OmerXViewController.swift */,
+				CF8449692B494E2000F9BA9B /* OmerX.storyboard */,
 			);
 			path = OmerX;
 			sourceTree = "<group>";
@@ -219,7 +225,9 @@
 				A39C8ACB2B494E2500A0E973 /* CagriStoryboard.storyboard in Resources */,
 				CF7350DA2B4178DE004EB544 /* LaunchScreen.storyboard in Resources */,
 				CF7350D72B4178DE004EB544 /* Assets.xcassets in Resources */,
+				CF84496A2B494E2000F9BA9B /* OmerX.storyboard in Resources */,
 				CF7350D52B4178DD004EB544 /* Main.storyboard in Resources */,
+				6985BEB32B494E1F005B8F99 /* OzanX.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
