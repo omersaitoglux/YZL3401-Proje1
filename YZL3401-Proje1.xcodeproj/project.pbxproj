@@ -85,14 +85,6 @@
 			path = Kaan;
 			sourceTree = "<group>";
 		};
-		A39C8AC62B4946CD00A0E973 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				A39C8AC72B4946E600A0E973 /* CagriX */,
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		A39C8AC72B4946E600A0E973 /* CagriX */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +122,7 @@
 			children = (
 				CEB86C512B494C4700B1398A /* BarisK */,
 				9DC8B7B92B4949BC000F84C3 /* Kaan */,
-				A39C8AC62B4946CD00A0E973 /* New Group */,
+				A39C8AC72B4946E600A0E973 /* CagriX */,
 				DF8824532B49468E00D0CCB5 /* Emre */,
 				6985BEAF2B4945C8005B8F99 /* OzanX */,
 				6D758F312B4944EA00397795 /* Melisa */,
