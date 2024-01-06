@@ -25,6 +25,7 @@
 		CF8449682B493DE400F9BA9B /* OmerXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8449672B493DE400F9BA9B /* OmerXViewController.swift */; };
 		CF84496A2B494E2000F9BA9B /* OmerX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8449692B494E2000F9BA9B /* OmerX.storyboard */; };
 		DF8824552B4946A300D0CCB5 /* EmreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8824542B4946A300D0CCB5 /* EmreViewController.swift */; };
+		DF8824592B49513A00D0CCB5 /* Emre.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8824582B49513A00D0CCB5 /* Emre.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		CF8449672B493DE400F9BA9B /* OmerXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerXViewController.swift; sourceTree = "<group>"; };
 		CF8449692B494E2000F9BA9B /* OmerX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OmerX.storyboard; sourceTree = "<group>"; };
 		DF8824542B4946A300D0CCB5 /* EmreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmreViewController.swift; sourceTree = "<group>"; };
+		DF8824582B49513A00D0CCB5 /* Emre.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Emre.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				DF8824542B4946A300D0CCB5 /* EmreViewController.swift */,
+				DF8824582B49513A00D0CCB5 /* Emre.storyboard */,
 			);
 			path = Emre;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF7350DA2B4178DE004EB544 /* LaunchScreen.storyboard in Resources */,
+				DF8824592B49513A00D0CCB5 /* Emre.storyboard in Resources */,
 				CF7350D72B4178DE004EB544 /* Assets.xcassets in Resources */,
 				6D902AF82B49515000553E51 /* Melisax.storyboard in Resources */,
 				CF84496A2B494E2000F9BA9B /* OmerX.storyboard in Resources */,
