@@ -14,7 +14,7 @@ class CagriViewController: UIViewController {
     @IBOutlet weak var cagriTableView: UITableView!
     
     var isim = ["Cagri Idrisoglu"]
-    
+    var mySubtitle = [""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +40,7 @@ extension CagriViewController: UITableViewDataSource, UITableViewDelegate {
         let cellC = cagriTableView.dequeueReusableCell(withIdentifier: "cellC", for: indexPath)
         
         cellC.textLabel?.text = isim[indexPath.row]
+        cellC.detailTextLabel?.text = mySubtitle[indexPath.row]
         return cellC
     }
     
