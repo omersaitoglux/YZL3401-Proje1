@@ -15,6 +15,7 @@
 		A39C8AC92B4946FD00A0E973 /* CagriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */; };
 		A39C8ACB2B494E2500A0E973 /* CagriStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39C8ACA2B494E2500A0E973 /* CagriStoryboard.storyboard */; };
 		CEB86C532B494C6F00B1398A /* BarisKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB86C522B494C6F00B1398A /* BarisKViewController.swift */; };
+		CEB86C572B4950A600B1398A /* BarisKKStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB86C562B4950A600B1398A /* BarisKKStoryboard.storyboard */; };
 		CF7350CE2B4178DD004EB544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350CD2B4178DD004EB544 /* AppDelegate.swift */; };
 		CF7350D02B4178DD004EB544 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */; };
 		CF7350D22B4178DD004EB544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350D12B4178DD004EB544 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		CF8449682B493DE400F9BA9B /* OmerXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8449672B493DE400F9BA9B /* OmerXViewController.swift */; };
 		CF84496A2B494E2000F9BA9B /* OmerX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8449692B494E2000F9BA9B /* OmerX.storyboard */; };
 		DF8824552B4946A300D0CCB5 /* EmreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8824542B4946A300D0CCB5 /* EmreViewController.swift */; };
+		DF8824592B49513A00D0CCB5 /* Emre.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8824582B49513A00D0CCB5 /* Emre.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,7 @@
 		A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CagriViewController.swift; sourceTree = "<group>"; };
 		A39C8ACA2B494E2500A0E973 /* CagriStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CagriStoryboard.storyboard; sourceTree = "<group>"; };
 		CEB86C522B494C6F00B1398A /* BarisKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarisKViewController.swift; sourceTree = "<group>"; };
+		CEB86C562B4950A600B1398A /* BarisKKStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarisKKStoryboard.storyboard; sourceTree = "<group>"; };
 		CF7350CA2B4178DD004EB544 /* YZL3401-Proje1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YZL3401-Proje1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7350CD2B4178DD004EB544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		CF8449672B493DE400F9BA9B /* OmerXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerXViewController.swift; sourceTree = "<group>"; };
 		CF8449692B494E2000F9BA9B /* OmerX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OmerX.storyboard; sourceTree = "<group>"; };
 		DF8824542B4946A300D0CCB5 /* EmreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmreViewController.swift; sourceTree = "<group>"; };
+		DF8824582B49513A00D0CCB5 /* Emre.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Emre.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				CEB86C522B494C6F00B1398A /* BarisKViewController.swift */,
+				CEB86C562B4950A600B1398A /* BarisKKStoryboard.storyboard */,
 			);
 			path = BarisK;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				DF8824542B4946A300D0CCB5 /* EmreViewController.swift */,
+				DF8824582B49513A00D0CCB5 /* Emre.storyboard */,
 			);
 			path = Emre;
 			sourceTree = "<group>";
@@ -224,8 +230,10 @@
 			files = (
 				A39C8ACB2B494E2500A0E973 /* CagriStoryboard.storyboard in Resources */,
 				CF7350DA2B4178DE004EB544 /* LaunchScreen.storyboard in Resources */,
+				DF8824592B49513A00D0CCB5 /* Emre.storyboard in Resources */,
 				CF7350D72B4178DE004EB544 /* Assets.xcassets in Resources */,
 				CF84496A2B494E2000F9BA9B /* OmerX.storyboard in Resources */,
+				CEB86C572B4950A600B1398A /* BarisKKStoryboard.storyboard in Resources */,
 				CF7350D52B4178DD004EB544 /* Main.storyboard in Resources */,
 				6985BEB32B494E1F005B8F99 /* OzanX.storyboard in Resources */,
 			);
