@@ -14,6 +14,7 @@
 		6D902AF82B49515000553E51 /* Melisax.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D902AF72B49515000553E51 /* Melisax.storyboard */; };
 		9DC8B7BB2B4949CF000F84C3 /* KaanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8B7BA2B4949CF000F84C3 /* KaanViewController.swift */; };
 		A39C8AC92B4946FD00A0E973 /* CagriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */; };
+		A39C8ACB2B494E2500A0E973 /* CagriStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39C8ACA2B494E2500A0E973 /* CagriStoryboard.storyboard */; };
 		CEB86C532B494C6F00B1398A /* BarisKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB86C522B494C6F00B1398A /* BarisKViewController.swift */; };
 		CEB86C572B4950A600B1398A /* BarisKKStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB86C562B4950A600B1398A /* BarisKKStoryboard.storyboard */; };
 		CF7350CE2B4178DD004EB544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350CD2B4178DD004EB544 /* AppDelegate.swift */; };
@@ -36,6 +37,7 @@
 		6D902AF72B49515000553E51 /* Melisax.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Melisax.storyboard; sourceTree = "<group>"; };
 		9DC8B7BA2B4949CF000F84C3 /* KaanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaanViewController.swift; sourceTree = "<group>"; };
 		A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CagriViewController.swift; sourceTree = "<group>"; };
+		A39C8ACA2B494E2500A0E973 /* CagriStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CagriStoryboard.storyboard; sourceTree = "<group>"; };
 		CEB86C522B494C6F00B1398A /* BarisKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarisKViewController.swift; sourceTree = "<group>"; };
 		CEB86C562B4950A600B1398A /* BarisKKStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarisKKStoryboard.storyboard; sourceTree = "<group>"; };
 		CF7350CA2B4178DD004EB544 /* YZL3401-Proje1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YZL3401-Proje1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */,
+				A39C8ACA2B494E2500A0E973 /* CagriStoryboard.storyboard */,
 			);
 			path = CagriX;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A39C8ACB2B494E2500A0E973 /* CagriStoryboard.storyboard in Resources */,
 				CF7350DA2B4178DE004EB544 /* LaunchScreen.storyboard in Resources */,
 				DF8824592B49513A00D0CCB5 /* Emre.storyboard in Resources */,
 				CF7350D72B4178DE004EB544 /* Assets.xcassets in Resources */,
