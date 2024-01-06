@@ -29,4 +29,20 @@ class ViewController: UIViewController {
     func kaan(){
         print("hello")
     }
+    
+    func baris(){
+        print("hello")
+    }
+    
+    func cagri(){
+        print("hello")
+    }
+    
+    func ozan(){
+        print("hello")
+    }
+    
+    func melisa(){
+        print("hello")
+    }
 }
