@@ -13,6 +13,7 @@
 		CF7350D52B4178DD004EB544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7350D32B4178DD004EB544 /* Main.storyboard */; };
 		CF7350D72B4178DE004EB544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7350D62B4178DE004EB544 /* Assets.xcassets */; };
 		CF7350DA2B4178DE004EB544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7350D82B4178DE004EB544 /* LaunchScreen.storyboard */; };
+		CF8449682B493DE400F9BA9B /* OmerXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8449672B493DE400F9BA9B /* OmerXViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CF7350D62B4178DE004EB544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF7350D92B4178DE004EB544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF7350DB2B4178DE004EB544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8449672B493DE400F9BA9B /* OmerXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerXViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CF7350CC2B4178DD004EB544 /* YZL3401-Proje1 */ = {
 			isa = PBXGroup;
 			children = (
+				CF8449662B493DC200F9BA9B /* OmerX */,
 				CF7350CD2B4178DD004EB544 /* AppDelegate.swift */,
 				CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */,
 				CF7350D12B4178DD004EB544 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				CF7350DB2B4178DE004EB544 /* Info.plist */,
 			);
 			path = "YZL3401-Proje1";
+			sourceTree = "<group>";
+		};
+		CF8449662B493DC200F9BA9B /* OmerX */ = {
+			isa = PBXGroup;
+			children = (
+				CF8449672B493DE400F9BA9B /* OmerXViewController.swift */,
+			);
+			path = OmerX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				CF7350D22B4178DD004EB544 /* ViewController.swift in Sources */,
 				CF7350CE2B4178DD004EB544 /* AppDelegate.swift in Sources */,
+				CF8449682B493DE400F9BA9B /* OmerXViewController.swift in Sources */,
 				CF7350D02B4178DD004EB544 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
