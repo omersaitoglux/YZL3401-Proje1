@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05C1B1AA2B494A910097B951 /* AzimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C1B1A92B494A910097B951 /* AzimViewController.swift */; };
+		05C1B1AE2B4959DB0097B951 /* Azim.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C1B1AD2B4959DB0097B951 /* Azim.storyboard */; };
 		6985BEB12B4945E3005B8F99 /* OzanXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6985BEB02B4945E3005B8F99 /* OzanXViewController.swift */; };
 		6985BEB32B494E1F005B8F99 /* OzanX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6985BEB22B494E1F005B8F99 /* OzanX.storyboard */; };
 		6D758F332B4944FB00397795 /* MelisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D758F322B4944FB00397795 /* MelisaViewController.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		05C1B1A92B494A910097B951 /* AzimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzimViewController.swift; sourceTree = "<group>"; };
+		05C1B1AD2B4959DB0097B951 /* Azim.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Azim.storyboard; sourceTree = "<group>"; };
 		6985BEB02B4945E3005B8F99 /* OzanXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzanXViewController.swift; sourceTree = "<group>"; };
 		6985BEB22B494E1F005B8F99 /* OzanX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OzanX.storyboard; sourceTree = "<group>"; };
 		6D758F322B4944FB00397795 /* MelisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelisaViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				05C1B1A92B494A910097B951 /* AzimViewController.swift */,
+				05C1B1AD2B4959DB0097B951 /* Azim.storyboard */,
 			);
 			path = Azim;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39C8ACB2B494E2500A0E973 /* CagriStoryboard.storyboard in Resources */,
+				05C1B1AE2B4959DB0097B951 /* Azim.storyboard in Resources */,
 				CF7350DA2B4178DE004EB544 /* LaunchScreen.storyboard in Resources */,
 				DF8824592B49513A00D0CCB5 /* Emre.storyboard in Resources */,
 				9DC8B7BF2B4952C6000F84C3 /* KaanX.storyboard in Resources */,
