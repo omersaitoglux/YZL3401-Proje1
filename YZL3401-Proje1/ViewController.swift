@@ -13,36 +13,42 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    func goVCStoryboard(identifier: String){
+        let storyboard = UIStoryboard(name: identifier, bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: identifier)
+        show(vc, sender: nil)
+    }
 
-    func hesapla(){
-        print("Hesaplama Metodu eklendi")
+    @IBAction func omerButtonTapped(_ sender: UIButton) {
+        goVCStoryboard(identifier: "OmerX")
     }
     
-    func emre(){
-        print("hello")
+    @IBAction func barisButtonTapped(_ sender: UIButton) {
+        goVCStoryboard(identifier: "BarisKKStoryboard")
     }
     
-    func azim(){
-        print("hello")
+    @IBAction func kaanButtonTapped(_ sender: UIButton) {
+        goVCStoryboard(identifier: "KaanX")
     }
     
-    func kaan(){
-        print("hello")
+    @IBAction func cagriButtonTapped(_ sender: UIButton) {
+        goVCStoryboard(identifier: "CagriStoryboard")
+    }
+    @IBAction func emreButtonTapped(_ sender: UIButton) {
+        goVCStoryboard(identifier: "Emre")
     }
     
-    func baris(){
-        print("hello")
+    @IBAction func ozanButtonTapped(_ sender: UIButton) {
+        goVCStoryboard(identifier: "OzanY")
     }
     
-    func cagri(){
-        print("hello")
+    @IBAction func melisaButtonTapped(_ sender: UIButton) {
+        goVCStoryboard(identifier: "Melisax")
     }
     
-    func ozan(){
-        print("hello")
-    }
-    
-    func melisa(){
-        print("hello")
+    @IBAction func azimButtonTapped(_ sender: UIButton) {
+        goVCStoryboard(identifier: "Azim")
+
     }
 }
