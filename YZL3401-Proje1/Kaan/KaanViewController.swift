@@ -7,6 +7,6 @@
 
 import UIKit
 
-class KaanViewController: NSObject {
+class KaanViewController: UIViewController {
 
 }

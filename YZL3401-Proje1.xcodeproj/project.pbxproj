@@ -12,6 +12,7 @@
 		6985BEB32B494E1F005B8F99 /* OzanX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6985BEB22B494E1F005B8F99 /* OzanX.storyboard */; };
 		6D758F332B4944FB00397795 /* MelisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D758F322B4944FB00397795 /* MelisaViewController.swift */; };
 		9DC8B7BB2B4949CF000F84C3 /* KaanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8B7BA2B4949CF000F84C3 /* KaanViewController.swift */; };
+		9DC8B7BF2B4952C6000F84C3 /* KaanX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC8B7BE2B4952C6000F84C3 /* KaanX.storyboard */; };
 		A39C8AC92B4946FD00A0E973 /* CagriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */; };
 		A39C8ACB2B494E2500A0E973 /* CagriStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39C8ACA2B494E2500A0E973 /* CagriStoryboard.storyboard */; };
 		CEB86C532B494C6F00B1398A /* BarisKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB86C522B494C6F00B1398A /* BarisKViewController.swift */; };
@@ -34,6 +35,7 @@
 		6985BEB22B494E1F005B8F99 /* OzanX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OzanX.storyboard; sourceTree = "<group>"; };
 		6D758F322B4944FB00397795 /* MelisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelisaViewController.swift; sourceTree = "<group>"; };
 		9DC8B7BA2B4949CF000F84C3 /* KaanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaanViewController.swift; sourceTree = "<group>"; };
+		9DC8B7BE2B4952C6000F84C3 /* KaanX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KaanX.storyboard; sourceTree = "<group>"; };
 		A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CagriViewController.swift; sourceTree = "<group>"; };
 		A39C8ACA2B494E2500A0E973 /* CagriStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CagriStoryboard.storyboard; sourceTree = "<group>"; };
 		CEB86C522B494C6F00B1398A /* BarisKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarisKViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				9DC8B7BA2B4949CF000F84C3 /* KaanViewController.swift */,
+				9DC8B7BE2B4952C6000F84C3 /* KaanX.storyboard */,
 			);
 			path = Kaan;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				A39C8ACB2B494E2500A0E973 /* CagriStoryboard.storyboard in Resources */,
 				CF7350DA2B4178DE004EB544 /* LaunchScreen.storyboard in Resources */,
 				DF8824592B49513A00D0CCB5 /* Emre.storyboard in Resources */,
+				9DC8B7BF2B4952C6000F84C3 /* KaanX.storyboard in Resources */,
 				CF7350D72B4178DE004EB544 /* Assets.xcassets in Resources */,
 				CF84496A2B494E2000F9BA9B /* OmerX.storyboard in Resources */,
 				CEB86C572B4950A600B1398A /* BarisKKStoryboard.storyboard in Resources */,
