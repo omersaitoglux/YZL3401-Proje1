@@ -29,8 +29,4 @@ class ViewController: UIViewController {
     func kaan(){
         print("hello")
     }
-    
-    func barış(){
-        print("hello")
-    }
 }
