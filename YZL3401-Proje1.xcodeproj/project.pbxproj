@@ -11,6 +11,7 @@
 		6D758F332B4944FB00397795 /* MelisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D758F322B4944FB00397795 /* MelisaViewController.swift */; };
 		9DC8B7BB2B4949CF000F84C3 /* KaanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8B7BA2B4949CF000F84C3 /* KaanViewController.swift */; };
 		A39C8AC92B4946FD00A0E973 /* CagriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */; };
+		CEB86C532B494C6F00B1398A /* BarisKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB86C522B494C6F00B1398A /* BarisKViewController.swift */; };
 		CF7350CE2B4178DD004EB544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350CD2B4178DD004EB544 /* AppDelegate.swift */; };
 		CF7350D02B4178DD004EB544 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */; };
 		CF7350D22B4178DD004EB544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7350D12B4178DD004EB544 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		6D758F322B4944FB00397795 /* MelisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelisaViewController.swift; sourceTree = "<group>"; };
 		9DC8B7BA2B4949CF000F84C3 /* KaanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaanViewController.swift; sourceTree = "<group>"; };
 		A39C8AC82B4946FD00A0E973 /* CagriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CagriViewController.swift; sourceTree = "<group>"; };
+		CEB86C522B494C6F00B1398A /* BarisKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarisKViewController.swift; sourceTree = "<group>"; };
 		CF7350CA2B4178DD004EB544 /* YZL3401-Proje1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YZL3401-Proje1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7350CD2B4178DD004EB544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7350CF2B4178DD004EB544 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 			path = CagriX;
 			sourceTree = "<group>";
 		};
+		CEB86C512B494C4700B1398A /* BarisK */ = {
+			isa = PBXGroup;
+			children = (
+				CEB86C522B494C6F00B1398A /* BarisKViewController.swift */,
+			);
+			path = BarisK;
+			sourceTree = "<group>";
+		};
 		CF7350C12B4178DD004EB544 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 		CF7350CC2B4178DD004EB544 /* YZL3401-Proje1 */ = {
 			isa = PBXGroup;
 			children = (
+				CEB86C512B494C4700B1398A /* BarisK */,
 				9DC8B7B92B4949BC000F84C3 /* Kaan */,
 				A39C8AC62B4946CD00A0E973 /* New Group */,
 				DF8824532B49468E00D0CCB5 /* Emre */,
@@ -220,6 +231,7 @@
 				9DC8B7BB2B4949CF000F84C3 /* KaanViewController.swift in Sources */,
 				DF8824552B4946A300D0CCB5 /* EmreViewController.swift in Sources */,
 				CF7350D02B4178DD004EB544 /* SceneDelegate.swift in Sources */,
+				CEB86C532B494C6F00B1398A /* BarisKViewController.swift in Sources */,
 				6D758F332B4944FB00397795 /* MelisaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
