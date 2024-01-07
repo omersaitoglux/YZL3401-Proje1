@@ -19,13 +19,13 @@ class OzanTableViewController: UIViewController {
 }
 extension OzanTableViewController:UITableViewDelegate , UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 2
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
         let cell = OzanTableView.dequeueReusableCell(withIdentifier: "ListCell", for: indexPath)
-        cell.textLabel?.text = "Ozan"
+        cell.textLabel?.text = ""
         return cell
     }
 }
