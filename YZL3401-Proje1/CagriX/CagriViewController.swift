@@ -8,7 +8,14 @@
 import UIKit
 
 class CagriViewController: UIViewController {
-
+   
+   
+    
+    @IBOutlet weak var cagriTableView: UITableView!
+    
+    var isim = ["Cagri Idrisoglu"]
+    var mySubtitle = [""]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +23,30 @@ class CagriViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+}
+
+extension CagriViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
     }
-    */
 
+                                    
+                                
+                                    
+                                    
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellC = cagriTableView.dequeueReusableCell(withIdentifier: "cellC", for: indexPath)
+        
+        cellC.textLabel?.text = isim[indexPath.row]
+        cellC.detailTextLabel?.text = mySubtitle[indexPath.row]
+        return cellC
+    }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return isim.count
+    }
+    
 }
