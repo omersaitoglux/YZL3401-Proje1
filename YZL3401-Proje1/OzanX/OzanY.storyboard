@@ -8,23 +8,76 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--OzanY View Controller-->
+        <!--Ozan Table View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="OzanY" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="OzanYViewController" customModule="YZL3401_Proje1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OzanY" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="OzanTableViewController" customModule="YZL3401_Proje1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Jdf-al-s6b">
+                                <rect key="frame" x="0.0" y="75" width="393" height="777"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ListCell" rowHeight="200" id="7V9-rx-S75">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7V9-rx-S75" id="4jw-Yn-u8j">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="person.crop.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cK7-G3-vzM">
+                                                    <rect key="frame" x="0.0" y="84" width="166" height="104.66666666666669"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ozan Doruk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNG-FQ-niP">
+                                                    <rect key="frame" x="242.66666666666663" y="110" width="110.33333333333337" height="52"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="cK7-G3-vzM" secondAttribute="bottom" id="3y2-RR-jny"/>
+                                                <constraint firstItem="cK7-G3-vzM" firstAttribute="top" secondItem="4jw-Yn-u8j" secondAttribute="topMargin" constant="72" id="5c7-UL-CZQ"/>
+                                                <constraint firstItem="gNG-FQ-niP" firstAttribute="leading" secondItem="cK7-G3-vzM" secondAttribute="trailing" constant="100" id="8Fs-d1-r8f"/>
+                                                <constraint firstItem="cK7-G3-vzM" firstAttribute="top" secondItem="4jw-Yn-u8j" secondAttribute="topMargin" constant="72" id="8Oq-TW-WLS"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="gNG-FQ-niP" secondAttribute="bottom" constant="27" id="D8Q-QI-SNz"/>
+                                                <constraint firstItem="cK7-G3-vzM" firstAttribute="leading" secondItem="4jw-Yn-u8j" secondAttribute="leadingMargin" constant="32" id="ILx-vD-Aj8"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="cK7-G3-vzM" secondAttribute="bottom" id="M49-Sy-GEh"/>
+                                                <constraint firstItem="gNG-FQ-niP" firstAttribute="top" secondItem="4jw-Yn-u8j" secondAttribute="topMargin" constant="99" id="MTJ-Er-SXw"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="gNG-FQ-niP" secondAttribute="trailing" constant="20" id="ZPp-C3-euG"/>
+                                                <constraint firstItem="cK7-G3-vzM" firstAttribute="leading" secondItem="4jw-Yn-u8j" secondAttribute="leadingMargin" constant="20" id="cJZ-5R-EPU"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="9pD-Vc-jDO"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="iGq-fB-XAK"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jdf-al-s6b" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="45I-zw-Ywg"/>
+                            <constraint firstAttribute="bottom" secondItem="Jdf-al-s6b" secondAttribute="bottom" id="NTa-nk-fXW"/>
+                            <constraint firstItem="Jdf-al-s6b" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="YIh-SG-4Pz"/>
+                            <constraint firstItem="Jdf-al-s6b" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="fS6-Km-xbH"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="OzanTableView" destination="Jdf-al-s6b" id="Ybl-za-LDr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="-34"/>
+            <point key="canvasLocation" x="72.51908396946564" y="-32.394366197183103"/>
         </scene>
     </scenes>
     <resources>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
