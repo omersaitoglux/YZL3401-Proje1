@@ -9,9 +9,16 @@ import UIKit
 
 class OmerXViewController: UIViewController {
 
+    @IBOutlet weak var themeLabel: UILabel!
+    var tema = AppData.shared.defaultTheme
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        themeLabel.text = tema
+        
+     
     }
 
 
