@@ -7,21 +7,20 @@
 
 import UIKit
 
-class CustomTableViewCell: UITableViewCell {
+final class CustomTableViewCell: UITableViewCell {
 
-    
     @IBOutlet weak var LabelImage: UIImageView!
     @IBOutlet weak var NameLabel: UILabel!
+    
+    static let identifier = "CustomCell"
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-      
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    func configureUI(model: DataModel){
+        NameLabel.text = model.title
+        LabelImage.image = UIImage(systemName: model.imageUrl)
     }
-
 }

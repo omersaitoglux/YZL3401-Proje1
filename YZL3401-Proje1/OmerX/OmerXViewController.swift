@@ -18,8 +18,5 @@ class OmerXViewController: UIViewController {
 
         themeLabel.text = tema
         
-     
     }
-
-
 }

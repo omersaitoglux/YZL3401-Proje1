@@ -7,33 +7,34 @@
 
 import UIKit
 
-class EmreViewController: UIViewController {
+final class EmreViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    
+    var model: [DataModel] = [
+        DataModel(title: "Emre XXX", imageUrl: "pencil"),
+        DataModel(title: "Barış", imageUrl: "memories"),
+        DataModel(title: "Kaan", imageUrl: "shuffle")
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
     }
-    
 }
-extension EmreViewController : UITableViewDelegate,UITableViewDataSource{
+
+// MARK: Tableview Settings
+extension EmreViewController: UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return model.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! CustomTableViewCell
-        cell.NameLabel.text = "Emre"
-    
+        let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.identifier, for: indexPath) as! CustomTableViewCell
+        cell.configureUI(model: model[indexPath.row])
         return cell
-        
-        
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Seçili Satır Sayısı ", indexPath.row)
-        
     }
-    
-    
 }
