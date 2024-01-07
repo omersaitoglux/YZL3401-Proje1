@@ -10,11 +10,13 @@ import UIKit
 class CagriViewController: UIViewController {
    
    
+    @IBOutlet weak var labelC: UILabel!
     
     @IBOutlet weak var cagriTableView: UITableView!
     
     var isim = ["Cagri Idrisoglu"]
     var mySubtitle = [""]
+    var tema = AppData.shared.defaultTheme
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,7 +48,11 @@ extension CagriViewController: UITableViewDataSource, UITableViewDelegate {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        labelC.text = tema
+        
         return isim.count
+        
+        
     }
     
 }

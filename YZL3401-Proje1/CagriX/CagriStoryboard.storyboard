@@ -23,6 +23,13 @@
                                     <constraint firstAttribute="height" constant="769" id="Yj3-ni-BFz"/>
                                 </constraints>
                                 <color key="sectionIndexBackgroundColor" systemColor="systemBlueColor"/>
+                                <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bbT-mf-cAs">
+                                    <rect key="frame" x="0.0" y="121.66666793823242" width="361" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellC" textLabel="feL-lT-qoo" detailTextLabel="ao6-K8-1HQ" imageView="aDk-X6-p3d" style="IBUITableViewCellStyleSubtitle" id="6T1-II-u4Q">
                                         <rect key="frame" x="0.0" y="50" width="361" height="43.666667938232422"/>
@@ -69,6 +76,7 @@
                     </view>
                     <connections>
                         <outlet property="cagriTableView" destination="Rm9-is-5ki" id="duU-eQ-z45"/>
+                        <outlet property="labelC" destination="bbT-mf-cAs" id="uqc-Dg-do0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
